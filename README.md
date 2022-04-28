@@ -14,7 +14,9 @@ Hardware requirements
 
 Install Raspberry Pi OS
 -------------------------
-Download and install Raspberry Pi OS Imager(64-bit or 32-bit) to the tartget Micro SD with an SD card reader at https://www.raspberrypi.com/software
+1. Download and install Raspberry Pi OS Imager(64-bit or 32-bit) to the tartget Micro SD with an SD card reader at https://www.raspberrypi.com/software
+
+2. Insert the Micro SD to Raspberry Pi native slot and turn on the computer
 
 Usage
 -------------------------
