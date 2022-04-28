@@ -14,7 +14,7 @@ Hardware requirements
 
 Install Raspberry Pi OS
 -------------------------
-Download and install Raspberry Pi OS Imager(64-bit or 32-bit) to a computer with an SD card reader at https://www.raspberrypi.com/software
+Download and install Raspberry Pi OS Imager(64-bit or 32-bit) to the tartget Micro SD with an SD card reader at https://www.raspberrypi.com/software
 
 Usage
 -------------------------
@@ -36,17 +36,15 @@ $ make
 ```
 $ sudo ./mmc –h
 ``` 
-5. Insert the target Micro SD to the native MocroSD slot of Raspberry Pi.
-
-6. Get SMART buffer by following command.
+5. Get SMART buffer by following command.
 ```
 $ sudo ./mmc smtbuffer /dev/mmcblk0
 ``` 
-7. Get SMART information by following command.
+6. Get SMART information by following command.
 ```
 $ sudo ./mmc smart /dev/mmcblk0
 ``` 
-8. Get Card life by following command.
+7. Get Card life by following command.
 ```
 $ sudo ./mmc health /dev/mmcblk0
 ``` 
